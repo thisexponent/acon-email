@@ -78,7 +78,7 @@ th.menu-right{
 
 //products
 .products{
-  @media (min-width: 596px){
+  @media only screen and (min-width: 596px){
     .large-4.first{
       padding-left: 0px !important;
     }
@@ -115,29 +115,29 @@ th.menu-right{
   }
 }
 
-@media (max-width: 596px){
+@media only screen and (max-width:#{$global-breakpoint}){
   .logo{
     height: 30px !important;
-    width: auto;
+    width: auto !important;
   }
   .social-icon{
     width: 30px !important;
-    height: auto;
+    height: auto !important;
   }
   .header{
     .wrapper-inner{
-      padding-left: 0px;
-      padding-right: 0px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
     }
     .menu{
       tbody tr{
-        text-align: right;
+        text-align: right !important;
       }
     }
   }
   .title{
     tr{
-      vertical-align: middle;
+      vertical-align: middle !important;
       th.columns{
         padding-top: 10px !important;
       }
@@ -148,5 +148,3 @@ th.menu-right{
   }
 
 }
-
-

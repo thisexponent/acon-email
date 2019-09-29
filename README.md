@@ -22,3 +22,5 @@ Foundation 도큐먼트 참고
 dist 생성: `npm start`
 
 dist 생성 + 스타일 인라인으로: `npm run build`
+
+자세한 내용 및 코드에 관한 것은 `package.json`과 도큐먼트 참고해주세요.
